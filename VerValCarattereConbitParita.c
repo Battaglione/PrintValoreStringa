@@ -19,6 +19,7 @@ int main(){
         }
         temp = j;
         printf("\n%c %d ", carattere[i], (int)carattere[i]);
+        cont = 0;
         for(j = temp; j >= 0; j--){
             printf("%d", bin[j]);
             if(bin[j] == 1){
